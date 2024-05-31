@@ -1,0 +1,26 @@
+.header-container {
+    background-color: bisque;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+
+  }
+  
+  .nav-list li {
+    margin-left: 20px;
+    cursor: pointer;
+  }
