@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="flex items-center justify-center flex-col p-20 max-md:p-10 max-md:text-sm">
+    <div className="flex items-center justify-center flex-col p-20 max-md:p-10 max-md:text-xs">
       {/* Original Version */}
       <div className="border-4 rounded-md border-black p-4 md:block hidden">
         <h1 className="text-center font-bold">Experiences:</h1>
@@ -19,10 +19,12 @@ const Experience = () => {
       {/* Shorter Version for max-md screens */}
       <div className="border-4 rounded-md border-black p-4 md:hidden block">
         <h1 className="text-center font-bold">Experience:</h1>
-        <ul>
+        <ul className="text-center">
           <li>QA Intern</li>
-          <li className="text-center">Skills: </li>
-          <li>API & Performance Testing, UI Testing, Test Cases</li>
+          <li>API Testing</li>
+          <li>Performance Testing</li>
+           <li>UI Testing</li>
+           <li>Test Cases</li>
         </ul>
       </div>
     </div>
