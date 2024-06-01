@@ -18,7 +18,7 @@ const Experience = () => {
 
       {/* Shorter Version for max-md screens */}
       <div className="border-4 rounded-md border-black p-4 md:hidden block">
-        <h1 className="text-center font-bold">Experience:</h1>
+        <h1 className="text-center font-bold">Experiences:</h1>
         <ul className="text-center">
           <li>QA Intern</li>
           <li>API Testing</li>
